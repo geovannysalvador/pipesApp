@@ -19,15 +19,18 @@ export class MenuComponent implements OnInit {
           {
             label: 'textos y fechas',
             icon: 'pi pi-fw pi-align-left',
+            routerLink: '/'
           },
           {
             label: 'numeros',
             icon: 'pi pi-fw pi-dollar',
+            routerLink: 'numbers'
           },
 
           {
             label: 'No comunes',
             icon: 'pi pi-fw pi-globe',
+            routerLink: 'uncommon'
           },
           {
             separator: true,
