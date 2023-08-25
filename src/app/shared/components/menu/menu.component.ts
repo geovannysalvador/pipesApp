@@ -42,20 +42,9 @@ export class MenuComponent implements OnInit {
         icon: 'pi pi-fw pi-pencil',
         items: [
           {
-            label: 'Elemento 1',
-            icon: 'pi pi-fw pi-align-left',
-          },
-          {
-            label: 'Elemento 2',
-            icon: 'pi pi-fw pi-align-right',
-          },
-          {
-            label: 'Elemento 3',
-            icon: 'pi pi-fw pi-align-center',
-          },
-          {
-            label: 'Elemento 4',
-            icon: 'pi pi-fw pi-align-justify',
+            label: 'Personalizados',
+            icon: 'pi pi-fw pi-palette',
+            routerLink: 'custom'
           },
         ],
       },
